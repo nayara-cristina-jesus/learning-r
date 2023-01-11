@@ -1,7 +1,7 @@
 # Calculo do IMC
 
 # ------------------------------------  
-#  IMC (kg/m²)  - Classificação
+# IMC = peso/altura² - Classificação
 # ------------------------------------  
 # menor que 18,5 - Magreza
 # de 18,5 a 24,9 - Peso normal
@@ -16,14 +16,14 @@ print("Calculo do IMC");
 altura <- 1.80;
 peso <- 50;
 imc <- 0;
-resultado = '';
+resultado <- '';
 
 # Convertendo as variaveis
-altura = as.numeric(altura);
-peso = as.numeric(peso);
+altura <- as.numeric(altura);
+peso <- as.numeric(peso);
 
 # Calculando IMC
-imc <- (peso/altura)/2;
+imc <- peso/(altura*altura);
 
 # Saida de dados
 paste("IMC:", round(imc, 2));
