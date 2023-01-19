@@ -1,5 +1,5 @@
 
-### Algebra Linear
+### Álgebra Linear
 ###   Operações com Matrizes (quadradas)
 
 ### Entrada de dados
