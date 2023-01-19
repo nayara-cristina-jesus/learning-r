@@ -4,11 +4,19 @@
 
 ### Entrada de dados
 
-vetor1 <- c(1,2,3,4,5,6,7,8,9) 
-matriz1 <- matrix(vetor1, nrow = 3, ncol = 3, byrow = TRUE)
+# Criando o vetor 1
+matrix_aux1 <- c(1,2,3,
+                 4,5,6,
+                 7,8,9) 
+# Transformando o vetor 1 em uma matriz 3 x 3
+matriz1 <- matrix(matrix_aux1, nrow = 3, ncol = 3, byrow = TRUE)
 
-vetor2 <- c(2,4,6,8,10,2,4,6,8)
-matriz2 <- matrix(vetor2, nrow = 3, ncol = 3, byrow = TRUE)
+# Criando o vetor 2
+matrix_aux2 <- c(2,4,6,
+                 8,4,2,
+                 4,6,8)
+# Transformando o vetor 2 em uma matriz 3 x 3
+matriz2 <- matrix(matrix_aux2, nrow = 3, ncol = 3, byrow = TRUE)
 
 ### Calculo de Matrizes
 
