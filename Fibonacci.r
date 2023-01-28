@@ -12,9 +12,9 @@ if (qtde_termos == 1) {
 } else {
     while (contagem <  qtde_termos) { 
       print(num1)
-      fib = num1 + num2
-      num1 = num2
-      num2 = fib
-      contagem = contagem + 1  
+      fib <- num1 + num2
+      num1 <- num2
+      num2 <- fib
+      contagem <- contagem + 1  
     }  
 }
